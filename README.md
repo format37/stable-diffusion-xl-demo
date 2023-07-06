@@ -1,3 +1,16 @@
+# StableDiffusion XL Gradio Demo (Docker)
+
+## Installation
+* Download weights
+* Update run.sh path to the weights
+* Run:
+```shell
+git clone https://github.com/format37/stable-diffusion-xl-demo.git
+cd stable-diffusion-xl-demo
+docker build -t sdxl .
+sh run.sh
+```
+# Original repo readme
 ---
 title: Stable Diffusion XL 0.9
 emoji: 🔥
